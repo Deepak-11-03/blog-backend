@@ -1,5 +1,5 @@
 // const aws =require('aws-sdk')
-const file =require('../aws.js')
+const file =require('./aws.js')
 const blogModel = require('../models/blogModel')
 const userModel = require('../models/userModel.js')
 

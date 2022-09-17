@@ -15,11 +15,23 @@
   "name": "server",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node":"14.x"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "src/ node index.js",
+    "start": " node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepak-11-03/blog-backend.git"
   },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deepak-11-03/blog-backend/issues"
+  },
+  "homepage": "https://github.com/Deepak-11-03/blog-backend#readme",
   "description": ""
 }

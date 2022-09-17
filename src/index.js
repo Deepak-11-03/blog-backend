@@ -1,12 +1,12 @@
 const mongoose=require('mongoose')
 const express=require('express');
-const route= require('./router')
+const route= require('./routes/router')
 const dotenv=require('dotenv');
 const multer = require('multer')
 const bodyParser = require('body-parser');
 const app=express();
 
-dotenv.config({path: '../config.env'});
+dotenv.config({path: 'config.env'});
 
 app.use(bodyParser.json());
 app.use(multer().any())
