@@ -29,6 +29,10 @@ mongoose.connect(process.env.DB_url,{useNewUrlParser: true, useUnifiedTopology: 
     console.log(err.message)
 });
 
+app.get('/',(req,res)=>{
+    res.send("main page")
+})
+
 app.use('/' ,route)
 
 app.listen( process.env.Port ,function(){
