@@ -34,6 +34,6 @@ app.get('/',(req,res)=>{
 
 app.use('/' ,route)
 
-app.listen( process.env.Port ,function(){
+app.listen( process.env.PORT ,function(){
     console.log('App running on port ' + process.env.PORT )
 });
