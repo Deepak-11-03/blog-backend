@@ -3,12 +3,11 @@ const express=require('express');
 const route= require('./routes/router')
 const dotenv=require('dotenv');
 const multer = require('multer')
-const bodyParser = require('body-parser');
 const app=express();
 
 dotenv.config({path: 'config.env'});
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(multer().any())
 app.use((req,res,next)=>{
     res.setHeader('Access-Control-Allow-Origin','*');
