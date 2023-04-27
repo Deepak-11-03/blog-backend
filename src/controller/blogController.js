@@ -1,7 +1,5 @@
 // const aws =require('aws-sdk')
-const cloudinary =require('../utils/cloudinary.js')
 const blogModel = require('../models/blogModel')
-const userModel = require('../models/userModel.js')
 
 // console.log(abc.)
 
